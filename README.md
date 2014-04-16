@@ -4,7 +4,7 @@ FotorSDK is a complete set of photo editing tools comes standard in Fotor's all-
 
 Get more info and downloads of FotorSDK (for iOS and Android) via the [FotorSDK mobile portal](https://github.com/Fotor)
 
-[Click here for official documentation for FotorSDK-android](https://github.com/Fotor)
+[Click here for official documentation for FotorSDK-android](https://github.com/Fotor/FotorSDK-android/wiki/InstallationGuide)
 
 
 Installing
