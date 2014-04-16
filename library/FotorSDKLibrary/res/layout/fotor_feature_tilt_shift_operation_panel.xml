@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fotor="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="?attr/fotorMainToolPanelHeight"
+            layout="@layout/fotor_feature_tilt_shift_operation_tools" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >           
+
+            <com.everimaging.fotorsdk.widget.FotorNavigationButtonShort
+                android:id="@+id/fotor_tilt_shift_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"                
+                android:background="@drawable/fotor_transparent"
+                android:minWidth="?attr/fotorNavigationBtnWidth"
+                android:src="@drawable/fotor_tilt_shift_circle_button"
+                fotor:fotorNavigationBtn_text="@string/fotor_tilt_shift_circle" />
+
+            <com.everimaging.fotorsdk.widget.FotorNavigationButtonShort
+                android:id="@+id/fotor_tilt_shift_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"              
+                android:background="@drawable/fotor_transparent"
+                android:minWidth="?attr/fotorNavigationBtnWidth"
+                android:src="@drawable/fotor_tilt_shift_linear_button"
+                fotor:fotorNavigationBtn_text="@string/fotor_tilt_shift_linear" />
+
+            <com.everimaging.fotorsdk.widget.FotorNavigationButtonShort
+                android:id="@+id/fotor_tilt_shift_ellipse"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"                
+                android:background="@drawable/fotor_transparent"
+                android:minWidth="?attr/fotorNavigationBtnWidth"
+                android:src="@drawable/fotor_tilt_shift_ellipse_button"
+                fotor:fotorNavigationBtn_text="@string/fotor_tilt_shift_ellipse" />
+
+        </LinearLayout>
+    </LinearLayout>    
+
+</FrameLayout>

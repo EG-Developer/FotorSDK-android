@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fotor_main_tool_panel_line_size"
+        android:background="@color/fotor_feature_text_panel_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/fotor_text_typeface_category_list"
+            android:layout_width="@dimen/fotor_text_typeface_category_item_width"
+            android:layout_height="match_parent"
+            android:footerDividersEnabled="false" 
+            android:headerDividersEnabled="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:cacheColorHint="@color/fotor_transparent"
+            android:scrollbars="none">
+        </ListView>
+
+        <TextView
+            android:layout_width="@dimen/fotor_main_tool_panel_line_size"
+            android:layout_height="match_parent"
+            android:background="@color/fotor_feature_text_panel_line_color" />
+
+        <ListView
+            android:id="@+id/fotor_text_typeface_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/fotor_feature_text_panel_line_color"
+            android:dividerHeight="@dimen/fotor_main_tool_panel_line_size"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" 
+            android:cacheColorHint="@color/fotor_transparent"
+            android:scrollbars="none">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

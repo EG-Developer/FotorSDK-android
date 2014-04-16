@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fotor_stickers_category_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.everimaging.fotorsdk.widget.lib.hlist.HListView
+            android:id="@+id/fotor_stickers_category_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/fotor_transparent"
+            android:listSelector="@color/fotor_transparent" >
+        </com.everimaging.fotorsdk.widget.lib.hlist.HListView>
+
+        <include
+            android:id="@+id/fotor_stickers_category_loading_container"
+            layout="@layout/fotor_feature_operation_loading_component" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fotor_stickers_stickers_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.everimaging.fotorsdk.widget.lib.hlist.HListView
+            android:id="@+id/fotor_stickers_stickers_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/fotor_transparent"
+            android:listSelector="@color/fotor_transparent" >
+        </com.everimaging.fotorsdk.widget.lib.hlist.HListView>
+    </FrameLayout>
+    
+
+</FrameLayout>

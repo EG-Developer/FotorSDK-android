@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fotor="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/fotorMainToolPanelHeight" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fotor_slider_panel_margin_h"
+        android:layout_marginRight="@dimen/fotor_slider_panel_margin_h"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.everimaging.fotorsdk.widget.FotorSliderPanelLayout
+            android:id="@+id/fotor_adjust_slider_r"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fotor:fotorCustomSlider_max="200"
+            fotor:fotorCustomSlider_progress="100"
+            fotor:fotorCustomSlider_progressDrawable="@drawable/fotor_slider_red_layer_list"
+            fotor:fotorCustomSlider_thumb="@drawable/fotor_public_slider_thumb" />
+
+        <TextView
+            android:layout_width="@dimen/fotor_main_tool_panel_line_size"
+            android:layout_height="match_parent"
+            android:background="@color/fotor_main_toolpanel_bottom_line" />
+
+        <com.everimaging.fotorsdk.widget.FotorSliderPanelLayout
+            android:id="@+id/fotor_adjust_slider_g"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fotor:fotorCustomSlider_max="200"
+            fotor:fotorCustomSlider_progress="100"
+            fotor:fotorCustomSlider_progressDrawable="@drawable/fotor_slider_green_layer_list"
+            fotor:fotorCustomSlider_thumb="@drawable/fotor_public_slider_thumb" >
+        </com.everimaging.fotorsdk.widget.FotorSliderPanelLayout>
+
+        <TextView
+            android:layout_width="@dimen/fotor_main_tool_panel_line_size"
+            android:layout_height="match_parent"
+            android:background="@color/fotor_main_toolpanel_bottom_line" />
+
+        <com.everimaging.fotorsdk.widget.FotorSliderPanelLayout
+            android:id="@+id/fotor_adjust_slider_b"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fotor:fotorCustomSlider_max="200"
+            fotor:fotorCustomSlider_progress="100"
+            fotor:fotorCustomSlider_progressDrawable="@drawable/fotor_slider_blue_layer_list"
+            fotor:fotorCustomSlider_thumb="@drawable/fotor_public_slider_thumb" />
+    </LinearLayout>
+
+</FrameLayout>

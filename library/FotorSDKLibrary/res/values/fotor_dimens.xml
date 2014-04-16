@@ -1,0 +1,55 @@
+<resources>
+
+    <dimen name="fotor_main_bottom_height">100dp</dimen>
+    <dimen name="fotor_main_navigation_btn_width">80dp</dimen>
+    <dimen name="fotor_main_navigation_btn_textsize">12sp</dimen>
+    <dimen name="fotor_main_tool_panel_height">40dp</dimen>
+    <dimen name="fotor_main_minimum_bottom_height">60dp</dimen>
+    <dimen name="fotor_main_header_btn_textsize">15.4sp</dimen>
+    <dimen name="fotor_main_header_title_textsize">18sp</dimen>
+    <dimen name="fotor_main_header_height">48dp</dimen>
+    <dimen name="fotor_main_header_margin">12dp</dimen>
+    <dimen name="fotor_main_tool_panel_line_size">0.5dp</dimen>
+    <dimen name="fotor_slider_value_margin">-10dp</dimen>
+    <dimen name="fotor_slider_panel_margin_h">12dp</dimen>
+    <dimen name="fotor_curve_control_panel_btn_spacing">13dp</dimen>
+    <dimen name="fotor_curve_btn_textsize">12sp</dimen>
+    <dimen name="fotor_tilt_shift_tool_panel_margin_left">12dp</dimen>
+    <dimen name="fotor_crop_reset_margin_h">8dp</dimen>
+    <dimen name="fotor_fx_effect_buttons_margin_right">0dip</dimen>
+    <dimen name="fotor_fx_effect_effects_listview_item_image_width">100dp</dimen>
+    <dimen name="fotor_fx_effect_effects_listview_item_textHeight">20dip</dimen>
+    <dimen name="fotor_fx_effect_effects_listview_item_margin">0dip</dimen>
+    <dimen name="fotor_fx_effect_effects_listview_item_textSize">12sp</dimen>
+    <dimen name="fotor_text_textsize_default">36sp</dimen>
+    <dimen name="fotor_text_textsize_maximum">72sp</dimen>
+    <dimen name="fotor_text_textsize_minimum">20sp</dimen>
+    <dimen name="fotor_text_textsize_step">3sp</dimen>
+    <dimen name="fotor_text_item_padding">8dp</dimen>
+    <dimen name="fotor_text_shadow_offset_x">2dp</dimen>
+    <dimen name="fotor_text_shadow_offset_y">2dp</dimen>
+    <dimen name="fotor_text_keyboard_canvas_spacing">10dp</dimen>
+    <dimen name="fotor_text_typeface_category_item_width">80dp</dimen>
+    <dimen name="fotor_text_typeface_item_height">40dp</dimen>
+    <dimen name="fotor_text_typeface_item_textsize">20sp</dimen>
+    <dimen name="fotor_text_color_button_stroke">1dp</dimen>
+    <dimen name="fotor_text_color_button_size">35dp</dimen>
+    <dimen name="fotor_text_texture_button_size">45dp</dimen>
+    <dimen name="fotor_text_option_panel_margin">10dp</dimen>
+    <dimen name="fotor_text_option_panel_spacing">25dp</dimen>
+    <dimen name="fotor_text_option_btn_spacing">15dp</dimen>
+    <dimen name="fotor_text_option_title_textsize">13sp</dimen>
+    <dimen name="fotor_text_option_right_panel_margin_top">8dp</dimen>
+    <dimen name="fotor_text_option_opacity_padding_h">10dp</dimen>
+    <dimen name="fotor_feature_stickers_button_width">80dp</dimen>
+    <dimen name="fotor_feature_stickers_button_spacing">2dp</dimen>
+    <dimen name="fotor_feature_loading_textSize">10sp</dimen>
+    <dimen name="fotor_main_loading_textSize">20sp</dimen>
+    <dimen name="fotor_main_imageview_margin">25dp</dimen>
+    <dimen name="fotor_main_loadding_background_radius">12dip</dimen>
+    <dimen name="fotor_main_loadding_margin">30dip</dimen>
+    <dimen name="fotor_curve_view_max_size">320dp</dimen>
+
+    <dimen name="fotor_border_effect_listview_divider_width">5dip</dimen>
+    
+</resources>

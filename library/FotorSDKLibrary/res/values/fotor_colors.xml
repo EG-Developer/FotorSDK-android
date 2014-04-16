@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fotor_transparent">#00000000</color>
+    <color name="fotor_half_transparent">#7f000000</color>
+    <color name="fotor_main_footer_background">#e5414850</color>
+    <color name="fotor_navigation_btn_pressed_background">#991c1f27</color>
+    <color name="fotor_navigation_btn_color_pressed">#ff00c0ff</color>
+    <color name="fotor_navigation_btn_color_default">#b3c2d6</color>
+    <color name="fotor_navigation_btn_color_disabled">#79808a</color>
+    <color name="fotor_main_imageview_background">#232730</color>
+    <color name="fotor_main_header_background">#e5414850</color>
+    <color name="fotor_main_toolpanel_background">#e5414850</color>
+    <color name="fotor_main_toolpanel_bottom_line">#4c000000</color>
+    <color name="fotor_main_header_button_text_default">#b3c2d6</color>
+    <color name="fotor_main_header_button_text_pressed">#00c0ff</color>
+    <color name="fotor_feature_adjust_curve_background">#991c1f23</color>
+    <color name="fotor_feature_loading_textColor">#ffffff</color>
+    <color name="fotor_fx_effect_effects_listview_item_background_default">#00ffffff</color>
+    <color name="fotor_fx_effect_effects_listview_item_background_pressed">#00C0ff</color>
+    <color name="fotor_fx_effect_effects_listview_item_textColor">#ffffff</color>
+    <color name="fotor_fx_effect_effects_listview_item_text_bakground">#99000000</color>
+    <color name="fotor_feature_stickers_button_pressed">#99ffffff</color>
+    <color name="fotor_feature_text_panel_background">#e5414850</color>
+    <color name="fotor_feature_text_panel_line_color">#33000000</color>
+    <color name="fotor_feature_text_typeface_pressed">#ff00c0ff</color>
+    <color name="fotor_feature_text_typeface_default">#ffebebeb</color>
+    <color name="fotor_feature_text_texture_border_selected">#ff00c0ff</color>
+    <color name="fotor_feature_text_option_title_color">#ebebeb</color>
+    <color name="fotor_feature_text_shadow_color">#80000000</color>
+    <color name="fotor_feature_text_color_button1">#000000</color>
+    <color name="fotor_feature_text_color_button2">#ffffff</color>
+    <color name="fotor_feature_text_color_button3">#ff6b6b</color>
+    <color name="fotor_feature_text_color_button4">#ff9f80</color>
+    <color name="fotor_feature_text_color_button5">#efd144</color>
+    <color name="fotor_feature_text_color_button6">#bdd94e</color>
+    <color name="fotor_feature_text_color_button7">#71ccc3</color>
+    <color name="fotor_feature_text_color_button8">#4491d2</color>
+    <color name="fotor_feature_text_color_button9">#cb55b6</color>
+    <color name="fotor_feature_text_color_button10">#fa722e</color>
+    <color name="fotor_feature_text_color_button11">#fc3939</color>
+    <color name="fotor_feature_text_color_button12">#ffff00</color>
+    <color name="fotor_feature_text_color_button13">#65ce00</color>
+    <color name="fotor_feature_text_color_button14">#007c53</color>
+    <color name="fotor_feature_text_color_button15">#23cafe</color>
+    <color name="fotor_feature_text_color_button16">#2f69fb</color>
+    <color name="fotor_feature_text_color_button17">#0a2fca</color>
+    <color name="fotor_feature_text_color_button18">#9f35b5</color>
+    <color name="fotor_feature_text_color_button19">#fb3991</color>
+    <color name="fotor_feature_text_color_button20">#7a6946</color>
+    <color name="fotor_feature_text_color_button21">#f65c85</color>
+    <color name="fotor_feature_text_color_button22">#5a5a5a</color>
+    <color name="fotor_feature_text_color_button23">#ed54e0</color>
+    <color name="fotor_feature_text_color_button24">#c98542</color>
+    <color name="fotor_feature_text_color_button25">#47e3a3</color>
+    <color name="fotor_feature_text_color_button26">#ecff80</color>
+    <color name="fotor_feature_text_color_button27">#44d9ef</color>
+    <color name="fotor_feature_text_color_button28">#a0a0a0</color>
+    
+    <color name="fotor_main_loading_background">#DD000000</color>
+
+</resources>

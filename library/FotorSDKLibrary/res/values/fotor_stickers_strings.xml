@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fotor_stickers_pack_text">Text</string>
+    <string name="fotor_stickers_pack_boom">Boom</string>
+	<string name="fotor_stickers_pack_decoration">Decoration</string>
+	<string name="fotor_stickers_pack_love">Love</string>
+	<string name="fotor_stickers_pack_party">Party</string>
+</resources>

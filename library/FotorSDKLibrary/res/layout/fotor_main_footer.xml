@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.everimaging.fotorsdk.widget.FotorFlipperBarContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"   
+    android:animateFirstView="true"
+    android:background="?attr/fotorMainFooterBackground"
+    android:inAnimation="@anim/fotor_footer_bar_in_animation"
+    android:outAnimation="@anim/fotor_footer_bar_out_animation"
+     >
+
+    <!-- tools panel -->
+
+    <FrameLayout
+        android:id="@+id/fotor_tools_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <!-- operations panel -->
+
+    <FrameLayout
+        android:id="@+id/fotor_operations_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</com.everimaging.fotorsdk.widget.FotorFlipperBarContainer>

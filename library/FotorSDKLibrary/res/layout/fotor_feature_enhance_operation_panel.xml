@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <!--
+    <com.everimaging.fotorsdk.widget.FotorNavigationButton
+        android:layout_width="?attr/fotorNavigationBtnWidth"
+        android:layout_height="match_parent"
+        android:background="@drawable/fotor_transparent"
+        android:minWidth="?attr/fotorNavigationBtnWidth"
+        android:src="@drawable/fotor_scenes_original"
+        app:fotorNavigationBtn_text="@string/fotor_original" />
+
+    <com.everimaging.fotorsdk.widget.FotorNavigationButton
+        android:layout_width="?attr/fotorNavigationBtnWidth"
+        android:layout_height="match_parent"
+        android:background="@drawable/fotor_transparent"
+        android:minWidth="?attr/fotorNavigationBtnWidth"
+        android:src="@drawable/fotor_enhance_low"
+        app:fotorNavigationBtn_text="@string/fotor_enhance_low" />
+
+    <com.everimaging.fotorsdk.widget.FotorNavigationButton
+        android:layout_width="?attr/fotorNavigationBtnWidth"
+        android:layout_height="match_parent"
+        android:background="@drawable/fotor_transparent"
+        android:minWidth="?attr/fotorNavigationBtnWidth"
+        android:src="@drawable/fotor_enhance_medium"
+        app:fotorNavigationBtn_text="@string/fotor_enhance_medium" />
+
+    <com.everimaging.fotorsdk.widget.FotorNavigationButton
+        android:layout_width="?attr/fotorNavigationBtnWidth"
+        android:layout_height="match_parent"
+        android:background="@drawable/fotor_transparent"
+        android:minWidth="?attr/fotorNavigationBtnWidth"
+        android:src="@drawable/fotor_enhance_high"
+        app:fotorNavigationBtn_text="@string/fotor_enhance_high" />
+    -->
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fotor_main_tool_panel_line_size"
+        android:background="@color/fotor_feature_text_panel_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="@dimen/fotor_text_typeface_category_item_width"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fotor_text_color_color_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/fotor_transparent"
+                android:padding="0dp"
+                android:src="@drawable/fotor_text_color_color_button" />
+
+            <ImageButton
+                android:id="@+id/fotor_text_color_texture_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/fotor_transparent"
+                android:padding="0dp"
+                android:src="@drawable/fotor_text_color_texture_button" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/fotor_main_tool_panel_line_size"
+            android:layout_height="match_parent"
+            android:background="@color/fotor_feature_text_panel_line_color" />
+        
+        <FrameLayout
+            android:id="@+id/fotor_text_colors_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

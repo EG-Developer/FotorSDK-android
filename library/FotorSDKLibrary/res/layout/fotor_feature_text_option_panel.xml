@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fotor_main_tool_panel_line_size"
+        android:background="@color/fotor_feature_text_panel_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/fotor_text_option_panel_margin"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"   
+            android:layout_marginRight="@dimen/fotor_text_option_panel_spacing"         
+            android:orientation="vertical" >
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"               
+                android:text="@string/fotor_text_textsize"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <ImageButton
+                    android:id="@+id/fotor_text_size_plus_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_size_plus_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_size_minus_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fotor_text_option_btn_spacing"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_size_minus_button" />
+            </LinearLayout>
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+              	android:layout_height="wrap_content" 
+                android:text="@string/fotor_text_rotation"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <ImageButton
+                    android:id="@+id/fotor_text_rotation_left_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_rotation_left_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_rotation_right_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fotor_text_option_btn_spacing"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_rotation_right_button" />
+            </LinearLayout>
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="@string/fotor_text_style"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <ImageButton
+                    android:id="@+id/fotor_text_style_bold_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_style_bold_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_style_italic_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fotor_text_option_btn_spacing"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_style_italic_button" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"            
+            android:orientation="vertical" >
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="@string/fotor_text_alignment"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+
+                <ImageButton
+                    android:id="@+id/fotor_text_align_left_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"                    
+                    android:src="@drawable/fotor_text_align_left_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_align_center_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_align_center_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_align_right_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_align_right_button" />
+            </LinearLayout>
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+               android:layout_height="wrap_content" 
+                android:text="@string/fotor_text_shadow"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                 >
+
+                <ImageButton
+                    android:id="@+id/fotor_text_shadow_left_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_shadow_left_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_shadow_bottom_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_shadow_bottom_button" />
+
+                <ImageButton
+                    android:id="@+id/fotor_text_shadow_right_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fotor_transparent"
+                    android:padding="0dp"
+                    android:src="@drawable/fotor_text_shadow_right_button" />
+            </LinearLayout>
+
+            <com.everimaging.fotorsdk.widget.FotorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="@string/fotor_text_opacity"
+                android:textColor="@color/fotor_feature_text_option_title_color"
+                android:textSize="@dimen/fotor_text_option_title_textsize" />
+
+                        
+           <FrameLayout 
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"               
+              >
+                <com.everimaging.fotorsdk.widget.FotorCustomSlider
+                android:id="@+id/fotor_text_opacity_slider"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"              
+                android:max="90"
+                android:progress="90"
+                android:progressDrawable="@drawable/fotor_public_slider_layer_list"
+                android:thumb="@drawable/fotor_public_slider_thumb"
+                android:paddingLeft="@dimen/fotor_text_option_opacity_padding_h"
+                android:paddingRight="@dimen/fotor_text_option_opacity_padding_h"/>
+           </FrameLayout>
+                
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

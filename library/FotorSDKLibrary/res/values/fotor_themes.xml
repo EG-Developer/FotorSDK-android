@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FotorBaseTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen"></style>
+
+    <style name="FotorTheme" parent="FotorBaseTheme">
+
+        <!-- fotor fonts style -->
+        <item name="fotorFontBold">@string/fotor_font_roboto_bold</item>
+        <item name="fotorFontLight">@string/fotor_font_roboto_light</item>
+        <item name="fotorMainBottomHeight">@dimen/fotor_main_bottom_height</item>
+        <item name="fotorMainToolPanelHeight">@dimen/fotor_main_tool_panel_height</item>
+        <item name="fotorMainHeaderHeight">@dimen/fotor_main_header_height</item>
+        <item name="fotorNavigationBtnWidth">@dimen/fotor_main_navigation_btn_width</item>
+        <item name="fotorDefaultSliderStyle">@style/FotorCustomSliderDefault</item>
+        <item name="fotorMainFooterBackground">@color/fotor_main_footer_background</item>
+        <item name="fotorMainHeaderBackground">@color/fotor_main_header_background</item>
+        <item name="fotorMainToolPanelBackground">@color/fotor_main_toolpanel_background</item>
+        <item name="fotorTitleTextSize">@dimen/fotor_main_header_title_textsize</item>
+        
+        <item name="fotorDefaultImageViewBackground">@color/fotor_main_imageview_background</item>
+        <item name="fotorDefaultOperToolPanelStyle">@style/fotorOperToolPanelDefault</item>
+        
+        <item name="fotorDefaultHeaderButtonStyle">@style/fotorHeaderButtonDefault</item>
+        <!-- Fotor Custom widget styles. -->
+        <item name="fotorDefaultNavigateBtnStyle">@style/FotorWidget.NavigationButton</item>
+        
+        <item name="fotorDefaultTextViewStyle">@style/FotorWidget.TextView</item>
+        <item name="fotorDefaultTextButtonStyle">@style/FotorWidget.TextButton</item>
+        
+        <item name="fotorDefaultEffectSelectorViewStyle">@style/FotorWidget.EffectSelectorView</item>
+        <item name="fotorDefaultTitleBackButtonStyle">@style/FotorWidget.TitleBackButton</item>
+    </style>
+
+</resources>

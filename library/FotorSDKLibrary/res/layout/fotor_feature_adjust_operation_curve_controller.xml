@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/fotorMainToolPanelHeight"
+    android:orientation="vertical"
+    >    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center_vertical">
+        <com.everimaging.fotorsdk.widget.FotorTextButton android:id="@+id/fotor_adjust_curve_toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fotor_adjust_curve_show"
+            android:textSize="@dimen/fotor_curve_btn_textsize"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/fotor_curve_toggle_button"/>
+        
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="@dimen/fotor_curve_control_panel_btn_spacing"/>
+        
+        <com.everimaging.fotorsdk.widget.FotorTextButton android:id="@+id/fotor_adjust_curve_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fotor_adjust_curve_reset"
+            android:textSize="@dimen/fotor_curve_btn_textsize"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/fotor_curve_restore_button"/>
+    </LinearLayout>
+
+</FrameLayout>

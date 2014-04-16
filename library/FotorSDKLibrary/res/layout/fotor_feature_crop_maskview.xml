@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top" >
+
+    <RelativeLayout
+        android:id="@+id/fotor_crop_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+       	android:layout_gravity="top"
+        >
+
+        <ImageButton
+            android:id="@+id/fotor_crop_btn_left_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/fotor_transparent"
+            android:padding="0dip"
+            android:src="@drawable/fotor_crop_point_button" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/fotor_crop_btn_left_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/fotor_transparent"
+            android:padding="0dip"
+            android:src="@drawable/fotor_crop_point_button" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/fotor_crop_btn_right_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/fotor_transparent"
+            android:padding="0dip"
+            android:src="@drawable/fotor_crop_point_button" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/fotor_crop_btn_right_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fotor_transparent"
+            android:padding="0dip"
+            android:src="@drawable/fotor_crop_point_button" >
+        </ImageButton>
+
+        
+        <!-- 边线按钮 -->
+        <ImageButton
+            android:id="@+id/fotor_crop_line_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/fotor_crop_btn_right_top"
+            android:layout_toRightOf="@+id/fotor_crop_btn_left_top"
+            android:background="@drawable/fotor_transparent"
+            android:src="@drawable/fotor_crop_line_h_button" />
+
+        <ImageButton
+            android:id="@+id/fotor_crop_line_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/fotor_crop_btn_right_bottom"
+            android:layout_toRightOf="@+id/fotor_crop_btn_left_bottom"
+            android:background="@drawable/fotor_transparent"
+            android:src="@drawable/fotor_crop_line_h_button" />
+
+        <ImageButton
+            android:id="@+id/fotor_crop_line_left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/fotor_crop_btn_left_bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fotor_crop_btn_left_top"
+            android:background="@drawable/fotor_transparent"
+            android:src="@drawable/fotor_crop_line_v_button" />
+
+        <ImageButton
+            android:id="@+id/fotor_crop_line_right"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/fotor_crop_btn_right_bottom"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/fotor_crop_btn_right_top"
+            android:background="@drawable/fotor_transparent"
+            android:src="@drawable/fotor_crop_line_v_button" />
+    </RelativeLayout>
+
+</FrameLayout>

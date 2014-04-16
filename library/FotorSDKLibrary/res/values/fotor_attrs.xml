@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Theme">
+        <attr name="fotorFontBold" format="string" />
+        <attr name="fotorFontLight" format="string" />
+        <attr name="fotorMainBottomHeight" format="reference" />
+        <attr name="fotorMainToolPanelHeight" format="reference" />
+        <attr name="fotorMainHeaderHeight" format="reference" />
+        <attr name="fotorNavigationBtnWidth" format="reference" />
+        <attr name="fotorMainFooterBackground" format="reference" />
+        <attr name="fotorMainHeaderBackground" format="reference" />
+        <attr name="fotorMainToolPanelBackground" format="reference" />
+        <attr name="fotorTitleTextSize" format="reference" />
+
+        <!-- default text style -->
+        <attr name="fotorDefaultTextViewStyle" format="reference" />
+        
+        <attr name="fotorDefaultTextButtonStyle" format="reference"/>
+
+        <!-- default slider adjustDistance -->
+        <attr name="fotorDefaultSliderStyle" format="reference" />
+        <attr name="fotorDefaultNavigateBtnStyle" format="reference" />
+        <attr name="fotorDefaultImageViewBackground" format="reference" />
+        <attr name="fotorDefaultOperToolPanelStyle" format="reference" />
+        <attr name="fotorDefaultHeaderButtonStyle" format="reference" />
+        
+        <attr name="fotorDefaultEffectSelectorViewStyle" format="reference" />
+        <attr name="fotorDefaultTitleBackButtonStyle" format="reference" />
+            
+
+    </declare-styleable>
+    <declare-styleable name="FotorTextView">
+        <attr name="fotorTextView_typeface" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="FotorTextButton">
+        <attr name="fotorTextButton_typeface" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FotorCustomSlider">
+        <attr name="fotorCustomSlider_adjustYDistance" format="integer" />
+        <attr name="fotorCustomSlider_isShowValue" format="boolean" />
+        <attr name="fotorCustomSlider_valueBackground" format="reference" />
+        <attr name="fotorCustomSlider_thumb" format="reference" />
+        <attr name="fotorCustomSlider_typeface" format="string" />
+        <attr name="fotorCustomSlider_progressDrawable" format="reference" />
+        <attr name="fotorCustomSlider_max" format="integer" />
+        <attr name="fotorCustomSlider_progress" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="FotorNavigationButton">
+        <attr name="fotorNavigationBtn_isShowPressedBackground" format="boolean" />
+        <attr name="fotorNavigationBtn_text" format="string" />
+        <attr name="fotorNavigationBtn_typeface" format="string" />
+        <attr name="fotorNavigationBtn_color_default" format="color" />
+        <attr name="fotorNavigationBtn_color_pressed" format="color" />
+        <attr name="fotorNavigationBtn_color_disabled" format="color"/>
+        <attr name="fotorNavigationBtn_pressed_background" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FotorOperToolPanel">
+        <attr name="fotorOperToolPanel_bottomLine_Color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FotorHeaderButton">
+        <attr name="fotorHeaderButton_typeface" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="FotorEffectSelectorView">
+        <attr name="fotorEffectSelectorView_Color" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="FotorTitleBackButton">
+        <attr name="fotorTitleBackButton_Textsize" format="dimension"/>
+        <attr name="fotorTitleBackButton_Text" format="string"/>
+        <attr name="fotorTitleBackButton_TextColor" format="color|reference"/>
+        <attr name="fotorTitleBackButton_IconDrawable" format="reference"/>
+        <attr name="fotorTitleBackButton_Typeface" format="string" />
+    </declare-styleable>
+
+</resources>

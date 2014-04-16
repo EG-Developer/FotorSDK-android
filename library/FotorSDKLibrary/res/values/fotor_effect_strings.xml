@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fotor_effect_fx_pack_analog">Analog</string>
+    <string name="fotor_effect_fx_pack_oldpicture">OldPicture</string>
+    <string name="fotor_effect_fx_pack_retro">Retro</string>
+    <string name="fotor_effect_fx_pack_vintage">Vintage</string>
+    <string name="fotor_effect_fx_pack_lomo">Lomo</string>
+    
+    
+    <string name="fotor_effect_border_pack_simple">Simple</string>
+    <string name="fotor_effect_border_pack_styled">Styled</string>
+    <string name="fotor_effect_border_pack_gallery">Gallery</string>
+
+</resources>

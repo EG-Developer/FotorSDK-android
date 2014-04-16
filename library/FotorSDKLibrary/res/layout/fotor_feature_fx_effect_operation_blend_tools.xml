@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fotor="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom" >
+
+    <com.everimaging.fotorsdk.widget.FotorOperationToolPanel
+        android:id="@+id/fotor_operation_tool_background"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/fotorMainToolPanelHeight"
+        android:layout_gravity="bottom"
+        android:background="?attr/fotorMainToolPanelBackground" />
+
+    <com.everimaging.fotorsdk.widget.FotorSliderPanelLayout
+        android:id="@+id/fotor_fx_effect_blend_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fotor_slider_panel_margin_h"
+        android:layout_marginRight="@dimen/fotor_slider_panel_margin_h"
+        fotor:fotorCustomSlider_max="100"
+        fotor:fotorCustomSlider_progress="100"
+        fotor:fotorCustomSlider_progressDrawable="@drawable/fotor_public_slider_layer_list"
+        fotor:fotorCustomSlider_thumb="@drawable/fotor_public_slider_thumb" />
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            
+            <corners android:radius="@dimen/fotor_main_loadding_background_radius" />
+
+            <solid android:color="@color/fotor_main_loading_background" />
+        </shape>
+    </item>
+
+</layer-list>

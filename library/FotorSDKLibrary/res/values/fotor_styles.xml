@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FotorWidget"></style>
+
+    <style name="FotorCustomSliderDefault" parent="@android:style/Widget.SeekBar">
+        <item name="fotorCustomSlider_adjustYDistance">@integer/fotor_default_slider_adjustDistance</item>
+        <item name="fotorCustomSlider_isShowValue">true</item>
+        <item name="fotorCustomSlider_valueBackground">@drawable/fotor_public_slider_value_background</item>
+        <item name="fotorCustomSlider_typeface">?attr/fotorFontLight</item>
+        <item name="fotorCustomSlider_thumb">@drawable/fotor_public_slider_thumb_selector</item>
+        <item name="fotorCustomSlider_progressDrawable">@drawable/fotor_public_slider_layer_list</item>
+    </style>
+
+    <style name="FotorWidget.NavigationButton" parent="@android:style/Widget.ImageButton">
+        <item name="fotorNavigationBtn_typeface">?attr/fotorFontLight</item>
+        <item name="fotorNavigationBtn_color_default">@color/fotor_navigation_btn_color_default</item>
+        <item name="fotorNavigationBtn_color_pressed">@color/fotor_navigation_btn_color_pressed</item>
+        <item name="fotorNavigationBtn_color_disabled">@color/fotor_navigation_btn_color_disabled</item>
+        <item name="fotorNavigationBtn_pressed_background">@color/fotor_navigation_btn_pressed_background</item>
+        <item name="fotorNavigationBtn_isShowPressedBackground">false</item>
+    </style>
+
+    <style name="fotorOperToolPanelDefault">
+        <item name="fotorOperToolPanel_bottomLine_Color">@color/fotor_main_toolpanel_bottom_line</item>
+    </style>
+
+    <style name="fotorHeaderButtonDefault" parent="@android:style/Widget.Button">
+        <item name="fotorHeaderButton_typeface">?attr/fotorFontLight</item>
+        <item name="android:textColor">@color/fotor_header_button_text_state</item>
+        <item name="android:textSize">@dimen/fotor_main_header_btn_textsize</item>
+        <item name="android:background">@drawable/fotor_transparent</item>
+    </style>
+
+    <style name="FotorWidget.TextView" parent="@android:style/Widget.TextView">
+        <item name="fotorTextView_typeface">?attr/fotorFontLight</item>
+    </style>
+    
+    <style name="FotorWidget.TextButton" parent="@android:style/Widget.Button">
+        <item name="fotorTextButton_typeface">?attr/fotorFontLight</item>
+        <item name="android:textColor">@color/fotor_text_button_text_state</item>
+    </style>
+    
+    <style name="FotorWidget.EffectSelectorView" >
+        <item name="fotorEffectSelectorView_Color">@color/fotor_fx_effect_effects_listview_item_background_pressed</item>
+    </style>
+
+    <style name="FotorWidget.TitleBackButton">
+        <item name="fotorTitleBackButton_Textsize">?attr/fotorTitleTextSize</item>
+        <item name="fotorTitleBackButton_Typeface">?attr/fotorFontLight</item>
+        <item name="fotorTitleBackButton_TextColor">@color/fotor_title_back_button_text_state</item>
+        <item name="fotorTitleBackButton_IconDrawable">@drawable/fotor_title_back_btn_icon</item>
+            
+    </style>
+</resources>

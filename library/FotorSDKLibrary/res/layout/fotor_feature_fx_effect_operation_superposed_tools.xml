@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This xml file is unused 2014-03-14 10:22 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.everimaging.fotorsdk.widget.FotorDragHListView
+        android:id="@+id/fotor_fx_effect_superposed_listview"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/fotor_transparent"
+        android:listSelector="@drawable/fotor_transparent" />
+
+    <ImageButton
+        android:id="@+id/fotor_fx_effect_add_or_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/fotor_effects_add" />
+
+</LinearLayout>

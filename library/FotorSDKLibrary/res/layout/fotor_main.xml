@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fotorDefaultImageViewBackground" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/fotor_headerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/fotorMainHeaderHeight"
+            layout="@layout/fotor_main_header" />
+
+        <FrameLayout
+            android:id="@+id/fotor_content_layer"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fotor_feature_draw_panel_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/fotorDefaultImageViewBackground" />
+
+            <com.everimaging.fotorsdk.widget.FotorImageView
+                android:id="@+id/fotor_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/fotor_main_loading_view"
+                layout="@layout/fotor_main_loadding" >
+            </include>
+
+            <FrameLayout
+                android:id="@+id/fotor_image_top_layer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/fotor_operation_tool_layer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <include
+            android:id="@+id/fotor_footerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/fotorMainBottomHeight"
+            layout="@layout/fotor_main_footer" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fotor_screen_top_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </FrameLayout>
+
+    <com.everimaging.fotorsdk.widget.FotorLockEventView
+        android:id="@+id/fotor_lock_event_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.everimaging.fotorsdk.widget.FotorLockEventView>
+
+</FrameLayout>

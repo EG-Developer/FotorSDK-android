@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"   
+    android:paddingLeft="@dimen/fotor_fx_effect_buttons_margin_right"
+    android:paddingRight="@dimen/fotor_fx_effect_buttons_margin_right" >
+    
+     <ImageView
+            android:id="@+id/fotor_fx_effect_effects_listview_item_imageview"
+            android:layout_width="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:layout_height="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:scaleType="centerCrop" />
+
+        <com.everimaging.fotorsdk.widget.FotorTextView
+            android:id="@+id/fotor_fx_effect_effects_listview_item_textview"
+            android:layout_width="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:layout_height="@dimen/fotor_fx_effect_effects_listview_item_textHeight"
+            android:layout_gravity="bottom"
+            android:background="@color/fotor_fx_effect_effects_listview_item_text_bakground"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxWidth="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:singleLine="true"
+            android:textColor="@color/fotor_fx_effect_effects_listview_item_textColor"
+            android:textSize="@dimen/fotor_fx_effect_effects_listview_item_textSize" />
+
+        <ProgressBar
+            android:id="@+id/fotor_fx_effect_effects_listview_item_progressbar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        
+        <com.everimaging.fotorsdk.widget.FotorEffectSelectorView 
+            android:id="@+id/fotor_fx_effect_effects_listview_item_selector"
+            android:layout_width="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:layout_height="@dimen/fotor_fx_effect_effects_listview_item_image_width"
+            android:visibility="gone"/>            
+       
+</FrameLayout>

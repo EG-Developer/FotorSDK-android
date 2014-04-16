@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fotor_fx_effect_category_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" >
+
+        <com.everimaging.fotorsdk.widget.lib.hlist.HListView
+            android:id="@+id/fotor_fx_effect_category_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <include
+            android:id="@+id/fotor_fx_effect_category_loading_container"
+            layout="@layout/fotor_feature_operation_loading_component" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fotor_fx_effect_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" >
+
+        <com.everimaging.fotorsdk.widget.lib.hlist.HListView
+            android:id="@+id/fotor_fx_effect_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="0dp"            
+            android:listSelector="@color/fotor_transparent" />
+    </FrameLayout>
+
+</merge>

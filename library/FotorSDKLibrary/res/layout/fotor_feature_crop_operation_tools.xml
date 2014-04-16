@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fotor="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/fotorMainToolPanelHeight" >
+
+    <com.everimaging.fotorsdk.widget.FotorOperationToolPanel
+        android:id="@+id/fotor_operation_tool_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="?attr/fotorMainToolPanelBackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.everimaging.fotorsdk.widget.FotorSliderPanelLayout
+            android:id="@+id/fotor_crop_slider"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fotor_slider_panel_margin_h"
+            android:layout_weight="1"
+            fotor:fotorCustomSlider_max="200"
+            fotor:fotorCustomSlider_progress="100"
+            fotor:fotorCustomSlider_progressDrawable="@drawable/fotor_public_slider_layer_list"
+            fotor:fotorCustomSlider_thumb="@drawable/fotor_public_slider_thumb" />
+
+        <ImageButton
+            android:id="@+id/fotor_crop_restore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/fotor_crop_reset_margin_h"
+            android:background="@color/fotor_transparent"
+            android:src="@drawable/fotor_crop_restore_button" />
+    </LinearLayout>
+
+</FrameLayout>

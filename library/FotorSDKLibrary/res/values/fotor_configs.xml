@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="fotor_anim_short_duration">200</integer>
+    
+    <integer name="fotor_anim_medium_duration">300</integer>
+    
+    <integer name="fotor_default_slider_adjustDistance">500</integer>
+    
+</resources>

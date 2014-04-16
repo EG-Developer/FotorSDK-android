@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fotor="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/fotorMainHeaderBackground"
+    android:orientation="horizontal"
+    android:gravity="center">    
+
+    <com.everimaging.fotorsdk.widget.FotorFlipperBarContainer
+        android:id="@+id/fotor_main_header_text_container"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/fotor_main_header_margin"
+        android:inAnimation="@anim/fotor_fit_view_fadein_animation"
+        android:orientation="horizontal"
+        android:outAnimation="@anim/fotor_fit_view_fadeout_animation"
+        >
+
+        <com.everimaging.fotorsdk.widget.FotorTextView
+            android:id="@+id/fotor_main_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/fotor_title_main"
+            android:textColor="@color/fotor_main_header_button_text_default"
+            android:textSize="?attr/fotorTitleTextSize" />
+
+        <com.everimaging.fotorsdk.widget.FotorTitleBackButton
+            android:id="@+id/fotor_feature_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"          
+            fotor:fotorTitleBackButton_Text="@string/fotor_adjust_contrast"            
+          />
+    </com.everimaging.fotorsdk.widget.FotorFlipperBarContainer>
+   
+     <ImageButton
+        android:id="@+id/fotor_main_btn_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fotor_transparent"
+        android:src="@drawable/fotor_header_undo_button" />
+    <ImageButton
+        android:id="@+id/fotor_main_btn_redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fotor_transparent"
+        android:src="@drawable/fotor_header_redo_button" 
+        />
+
+    <ImageButton
+        android:id="@+id/fotor_main_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/fotor_main_header_margin"
+        android:background="@color/fotor_transparent" 
+        android:src="@drawable/fotor_main_apply_button"/>
+
+</LinearLayout>
