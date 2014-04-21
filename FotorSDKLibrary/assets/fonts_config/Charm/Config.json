@@ -93,9 +93,9 @@
 		"font_id": 12,
 		"font_name": "Josefin Sans",
 		"font_normal": "Josefin Sans",
-		"font_bold": "JosefinSans-Bold",
-		"font_italic": "JosefinSans-Italic",
-		"font_bolditalic": "JosefinSans-BoldItalic"
+		"font_bold": "Josefin Sans-Bold",
+		"font_italic": "Josefin Sans-Italic",
+		"font_bolditalic": "Josefin Sans-BoldItalic"
 	},
 	{
 		"font_id": 13,

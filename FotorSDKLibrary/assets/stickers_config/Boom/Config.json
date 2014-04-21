@@ -1,32 +1,87 @@
-[["stickers_boom_1.png",
-"stickers_boom_1_icon.png"],
-["stickers_boom_2.png",
-"stickers_boom_2_icon.png"],
-["stickers_boom_3.png",
-"stickers_boom_3_icon.png"],
-["stickers_boom_4.png",
-"stickers_boom_4_icon.png"],
-["stickers_boom_5.png",
-"stickers_boom_5_icon.png"],
-["stickers_boom_6.png",
-"stickers_boom_6_icon.png"],
-["stickers_boom_7.png",
-"stickers_boom_7_icon.png"],
-["stickers_boom_8.png",
-"stickers_boom_8_icon.png"],
-["stickers_boom_9.png",
-"stickers_boom_9_icon.png"],
-["stickers_boom_10.png",
-"stickers_boom_10_icon.png"],
-["stickers_boom_11.png",
-"stickers_boom_11_icon.png"],
-["stickers_boom_12.png",
-"stickers_boom_12_icon.png"],
-["stickers_boom_13.png",
-"stickers_boom_13_icon.png"],
-["stickers_boom_14.png",
-"stickers_boom_14_icon.png"],
-["stickers_boom_15.png",
-"stickers_boom_15_icon.png"],
-["stickers_boom_16.png",
-"stickers_boom_16_icon.png"]]
+{
+	"version": "1",
+	"packageKey": "com.everimaging.photosdk.sticker.1",
+	"title": "boom",
+	"iconName": "boom",
+	"orderWeight": "1",
+	"classInfo": [{
+		"id": "1",
+		"resName": "stickers_boom_1",
+		"enableColor": "1"
+	},
+	{
+		"id": "2",
+		"resName": "stickers_boom_2",
+		"enableColor": "1"
+	},
+	{
+		"id": "3",
+		"resName": "stickers_boom_3",
+		"enableColor": "1"
+	},
+	{
+		"id": "4",
+		"resName": "stickers_boom_4",
+		"enableColor": "1"
+	},
+	{
+		"id": "5",
+		"resName": "stickers_boom_5",
+		"enableColor": "1"
+	},
+	{
+		"id": "6",
+		"resName": "stickers_boom_6",
+		"enableColor": "1"
+	},
+	{
+		"id": "7",
+		"resName": "stickers_boom_7",
+		"enableColor": "1"
+	},
+	{
+		"id": "8",
+		"resName": "stickers_boom_8",
+		"enableColor": "1"
+	},
+	{
+		"id": "9",
+		"resName": "stickers_boom_9",
+		"enableColor": "1"
+	},
+	{
+		"id": "10",
+		"resName": "stickers_boom_10",
+		"enableColor": "1"
+	},
+	{
+		"id": "11",
+		"resName": "stickers_boom_11",
+		"enableColor": "1"
+	},
+	{
+		"id": "12",
+		"resName": "stickers_boom_12",
+		"enableColor": "1"
+	},
+	{
+		"id": "13",
+		"resName": "stickers_boom_13",
+		"enableColor": "1"
+	},
+	{
+		"id": "14",
+		"resName": "stickers_boom_14",
+		"enableColor": "1"
+	},
+	{
+		"id": "15",
+		"resName": "stickers_boom_15",
+		"enableColor": "1"
+	},
+	{
+		"id": "16",
+		"resName": "stickers_boom_16",
+		"enableColor": "1"
+	}]
+}

@@ -24,6 +24,7 @@
             android:divider="@null"
             android:dividerHeight="0dp"
             android:cacheColorHint="@color/fotor_transparent"
+            android:listSelector="@color/fotor_transparent" 
             android:scrollbars="none">
         </ListView>
 
@@ -41,6 +42,7 @@
             android:footerDividersEnabled="false"
             android:headerDividersEnabled="false" 
             android:cacheColorHint="@color/fotor_transparent"
+            android:listSelector="@color/fotor_transparent" 
             android:scrollbars="none">
         </ListView>
     </LinearLayout>

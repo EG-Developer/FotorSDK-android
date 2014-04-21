@@ -1,14 +1,42 @@
-[["stickers_text_1.png",
-"stickers_text_1_icon.png"],
-["stickers_text_2.png",
-"stickers_text_2_icon.png"],
-["stickers_text_3.png",
-"stickers_text_3_icon.png"],
-["stickers_text_4.png",
-"stickers_text_4_icon.png"],
-["stickers_text_5.png",
-"stickers_text_5_icon.png"],
-["stickers_text_6.png",
-"stickers_text_6_icon.png"],
-["stickers_text_7.png",
-"stickers_text_7_icon.png"]]
+{
+	"version": "1",
+	"packageKey": "com.everimaging.photosdk.sticker.1",
+	"title": "text",
+	"iconName": "text",
+	"orderWeight": "1",
+	"classInfo": [{
+		"id": "1",
+		"resName": "stickers_text_1",
+		"enableColor": "1"
+	},
+	{
+		"id": "2",
+		"resName": "stickers_text_2",
+		"enableColor": "1"
+	},
+	{
+		"id": "3",
+		"resName": "stickers_text_3",
+		"enableColor": "1"
+	},
+	{
+		"id": "4",
+		"resName": "stickers_text_4",
+		"enableColor": "1"
+	},
+	{
+		"id": "5",
+		"resName": "stickers_text_5",
+		"enableColor": "1"
+	},
+	{
+		"id": "6",
+		"resName": "stickers_text_6",
+		"enableColor": "1"
+	},
+	{
+		"id": "7",
+		"resName": "stickers_text_7",
+		"enableColor": "1"
+	}]
+}

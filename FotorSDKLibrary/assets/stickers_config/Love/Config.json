@@ -1,32 +1,87 @@
-[["stickers_love_1.png",
-"stickers_love_1_icon.png"],
-["stickers_love_2.png",
-"stickers_love_2_icon.png"],
-["stickers_love_3.png",
-"stickers_love_3_icon.png"],
-["stickers_love_4.png",
-"stickers_love_4_icon.png"],
-["stickers_love_5.png",
-"stickers_love_5_icon.png"],
-["stickers_love_6.png",
-"stickers_love_6_icon.png"],
-["stickers_love_7.png",
-"stickers_love_7_icon.png"],
-["stickers_love_8.png",
-"stickers_love_8_icon.png"],
-["stickers_love_9.png",
-"stickers_love_9_icon.png"],
-["stickers_love_10.png",
-"stickers_love_10_icon.png"],
-["stickers_love_11.png",
-"stickers_love_11_icon.png"],
-["stickers_love_12.png",
-"stickers_love_12_icon.png"],
-["stickers_love_13.png",
-"stickers_love_13_icon.png"],
-["stickers_love_14.png",
-"stickers_love_14_icon.png"],
-["stickers_love_15.png",
-"stickers_love_15_icon.png"],
-["stickers_love_16.png",
-"stickers_love_16_icon.png"]]
+{
+	"version": "1",
+	"packageKey": "com.everimaging.photosdk.sticker.1",
+	"title": "love",
+	"iconName": "love",
+	"orderWeight": "1",
+	"classInfo": [{
+		"id": "1",
+		"resName": "stickers_love_1",
+		"enableColor": "1"
+	},
+	{
+		"id": "2",
+		"resName": "stickers_love_2",
+		"enableColor": "1"
+	},
+	{
+		"id": "3",
+		"resName": "stickers_love_3",
+		"enableColor": "1"
+	},
+	{
+		"id": "4",
+		"resName": "stickers_love_4",
+		"enableColor": "1"
+	},
+	{
+		"id": "5",
+		"resName": "stickers_love_5",
+		"enableColor": "1"
+	},
+	{
+		"id": "6",
+		"resName": "stickers_love_6",
+		"enableColor": "1"
+	},
+	{
+		"id": "7",
+		"resName": "stickers_love_7",
+		"enableColor": "1"
+	},
+	{
+		"id": "8",
+		"resName": "stickers_love_8",
+		"enableColor": "1"
+	},
+	{
+		"id": "9",
+		"resName": "stickers_love_9",
+		"enableColor": "1"
+	},
+	{
+		"id": "10",
+		"resName": "stickers_love_10",
+		"enableColor": "1"
+	},
+	{
+		"id": "11",
+		"resName": "stickers_love_11",
+		"enableColor": "1"
+	},
+	{
+		"id": "12",
+		"resName": "stickers_love_12",
+		"enableColor": "1"
+	},
+	{
+		"id": "13",
+		"resName": "stickers_love_13",
+		"enableColor": "1"
+	},
+	{
+		"id": "14",
+		"resName": "stickers_love_14",
+		"enableColor": "1"
+	},
+	{
+		"id": "15",
+		"resName": "stickers_love_15",
+		"enableColor": "1"
+	},
+	{
+		"id": "16",
+		"resName": "stickers_love_16",
+		"enableColor": "1"
+	}]
+}
