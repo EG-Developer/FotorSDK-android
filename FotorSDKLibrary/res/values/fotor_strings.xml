@@ -96,10 +96,13 @@
     <string name="fotor_dialog_alert_message_plugin_update">Plugin was changed ,u must reload data for use feature.</string>
 
     <!-- Fotor dialog text -->
-    <string name="fotor_dialog_alert_title_save">Save prompt</string>
-    <string name="fotor_dialog_alert_message_save">Oops! You didn\'t save your work. Are you sure that you want to close this editor?</string>
-    <string name="fotor_dialog_alert_negative_save">Oh no</string>
-    <string name="fotor_dialog_alert_positive_save">Sure</string>
+    <string name="fotor_dialog_alert_title_save">Save</string>
+    <string name="fotor_dialog_alert_message_save">Do you want to save the photo?</string>
+    <string name="fotor_dialog_alert_negative_save">No</string>
+    <string name="fotor_dialog_alert_positive_save">Yes</string>
     <string name="fotor_dialog_alert_title_plugin_update">Update</string>
+    
+    <!-- Fotor Toast text -->
+    <string name="fotor_toast_stickers_text">Can\'t add more! You can add 10 stickers.</string>
 
 </resources>
