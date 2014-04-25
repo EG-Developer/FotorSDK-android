@@ -104,5 +104,7 @@
     
     <!-- Fotor Toast text -->
     <string name="fotor_toast_stickers_text">Can\'t add more! You can add 10 stickers.</string>
+    <string name="fotor_toast_fx_text">Can\'t add more! You can add 8 multiple effects.</string>
+
 
 </resources>
