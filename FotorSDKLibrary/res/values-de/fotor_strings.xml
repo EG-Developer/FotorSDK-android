@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fotor_title_main">Bearbeiten</string>
+    <string name="fotor_feature_enhance">Verbessern</string>
+    <string name="fotor_feature_scenes">Szenen</string>
+    <string name="fotor_feature_adjust">Grundlegend</string>
+    <string name="fotor_feature_adjust_advance">Erweitert</string>
+    <string name="fotor_feature_fx_effects">Effekte</string>
+    <string name="fotor_feature_border">Bilder</string>
+    <string name="fotor_feature_crop">Zuschneiden</string>
+    <string name="fotor_feature_rotate">Drehen</string>
+    <string name="fotor_feature_stickers">Aufkleber</string>
+    <string name="fotor_feature_tilt_shift">Fokus</string>
+    <string name="fotor_feature_text">Text</string>
+    <string name="fotor_main_cancel">Cancle</string>
+    <string name="fotor_main_apply">Apply</string>
+    <string name="fotor_main_undo">Undo</string>
+    <string name="fotor_main_redo">Redo</string>
+    <string name="fotor_adjust_brightness">Helligkeit</string>
+    <string name="fotor_adjust_contrast">Kontrast</string>
+    <string name="fotor_adjust_saturation">Sättigung</string>
+    <string name="fotor_adjust_sharpen">Schärfen</string>
+    <string name="fotor_adjust_vignette">Vignette</string>
+    <string name="fotor_adjust_shadow">Schatten</string>
+    <string name="fotor_adjust_highlight">Glanzlichter</string>
+    <string name="fotor_adjust_temp">Temp</string>
+    <string name="fotor_adjust_tint">Tönung</string>
+    <string name="fotor_adjust_rgb">RGB</string>
+    <string name="fotor_adjust_curve">Kurven</string>
+    <string name="fotor_adjust_curve_show">Anzeigen</string>
+    <string name="fotor_adjust_curve_hide">Verstecken</string>
+    <string name="fotor_adjust_curve_reset">Rücksetzen</string>
+    <string name="fotor_rotate_left">Links</string>
+    <string name="fotor_rotate_right">Rechts</string>
+    <string name="fotor_rotate_flipv">V spiegeln</string>
+    <string name="fotor_rotate_fliph">H spiegeln</string>
+    <string name="fotor_scenes_original">Original</string>
+    <string name="fotor_scenes_auto">Auto</string>
+    <string name="fotor_scenes_backlit">Hinterleuchtet</string>
+    <string name="fotor_scenes_darken">Abdunkeln</string>
+    <string name="fotor_scenes_cloudy">Bewölkt</string>
+    <string name="fotor_scenes_shade">Schatten</string>
+    <string name="fotor_scenes_sunset">Sonnenuntergang</string>
+    <string name="fotor_scenes_night">Nacht</string>
+    <string name="fotor_scenes_flash">Blitz</string>
+    <string name="fotor_scenes_fluorescent">Kunstlicht</string>
+    <string name="fotor_scenes_portrait">Porträt</string>
+    <string name="fotor_scenes_sand_snow">Sand/Schnee</string>
+    <string name="fotor_scenes_landscape">Landschaft</string>
+    <string name="fotor_scenes_theatre">Theater</string>
+    <string name="fotor_scenes_food">Lebensmittel</string>
+    <string name="fotor_crop_free">Maßgeschneidert</string>
+    <string name="fotor_crop_original">Original</string>
+    <string name="fotor_crop_1_1">1:1</string>
+    <string name="fotor_crop_4_3">4:3</string>
+    <string name="fotor_crop_3_4">3:4</string>
+    <string name="fotor_crop_6_4">6:4</string>
+    <string name="fotor_crop_4_6">4:6</string>
+    <string name="fotor_crop_7_5">7:5</string>
+    <string name="fotor_crop_5_7">5:7</string>
+    <string name="fotor_crop_10_8">10:8</string>
+    <string name="fotor_crop_8_10">8:10</string>
+    <string name="fotor_crop_16_9">16:9</string>
+    <string name="fotor_crop_9_16">9:16</string>
+    <string name="fotor_tilt_shift_gradient">Gradient</string>
+    <string name="fotor_tilt_shift_strength">Strength</string>
+    <string name="fotor_tilt_shift_circle">Radial</string>
+    <string name="fotor_tilt_shift_linear">Linear</string>
+    <string name="fotor_tilt_shift_ellipse">Elliptisch</string>
+    <string name="fotor_font_roboto_light">Roboto-Light.ttf</string>
+    <string name="fotor_font_roboto_light_name">Roboto Light</string>
+    <string name="fotor_font_roboto_bold">Roboto-Bold.ttf</string>
+    <string name="fotor_font_roboto_bold_name">Roboto Bold</string>
+    <string name="fotor_font_assets_path">fonts</string>
+    <string name="fotor_enhance_low">Niedrig</string>
+    <string name="fotor_enhance_medium">Mittel</string>
+    <string name="fotor_enhance_high">Hoch</string>
+
+    <!-- Fotor common strings -->
+    <string name="fotor_back">Back</string>
+    <string name="fotor_loading">Verladung</string>
+    <string name="fotor_original">Original</string>
+    <string name="fotor_favorites">Favorites</string>
+    <string name="fotor_text_add_btn">Neuen</string>
+    <string name="fotor_text_default_text">Tippen Zu Bearbeiten</string>
+    <string name="fotor_text_textsize">Text Größe:</string>
+    <string name="fotor_text_rotation">Drehen Text:</string>
+    <string name="fotor_text_style">Text Stil:</string>
+    <string name="fotor_text_alignment">Angleichung:</string>
+    <string name="fotor_text_shadow">Schatten:</string>
+    <string name="fotor_text_opacity">Opazität:</string>
+    <string name="fotor_stickers_abstract">Abstract</string>
+    <string name="fotor_stickers_boom">Boom</string>
+    <string name="fotor_effect_store">Store</string>
+    <string name="fotor_dialog_alert_message_plugin_update">Plugin was changed ,u must reload data for use feature.</string>
+
+    <!-- Fotor dialog text -->
+    <string name="fotor_dialog_alert_title_save">Speichern</string>
+    <string name="fotor_dialog_alert_message_save">Soll das Foto gespeichert werden?</string>
+    <string name="fotor_dialog_alert_negative_save">Nein</string>
+    <string name="fotor_dialog_alert_positive_save">Ja</string>
+    <string name="fotor_dialog_alert_title_plugin_update">Update</string>
+    
+    <!-- Fotor Toast text -->
+    <string name="fotor_toast_stickers_text">Maximal 10 aufkleber!</string>
+    <string name="fotor_toast_fx_text">Maximal 8 multi FX!</string>
+	
+	
+</resources>

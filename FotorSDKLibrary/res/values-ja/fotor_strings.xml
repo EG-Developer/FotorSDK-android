@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fotor_title_main">編集</string>
+    <string name="fotor_feature_enhance">補正</string>
+    <string name="fotor_feature_scenes">シーン</string>
+    <string name="fotor_feature_adjust">基本</string>
+    <string name="fotor_feature_adjust_advance">高度</string>
+    <string name="fotor_feature_fx_effects">効果</string>
+    <string name="fotor_feature_border">フレーム</string>
+    <string name="fotor_feature_crop">クロップ</string>
+    <string name="fotor_feature_rotate">回転</string>
+    <string name="fotor_feature_stickers">ステッカー</string>
+    <string name="fotor_feature_tilt_shift">フォーカス</string>
+    <string name="fotor_feature_text">テキスト</string>
+    <string name="fotor_main_cancel">Cancle</string>
+    <string name="fotor_main_apply">Apply</string>
+    <string name="fotor_main_undo">Undo</string>
+    <string name="fotor_main_redo">Redo</string>
+    <string name="fotor_adjust_brightness">明るさ</string>
+    <string name="fotor_adjust_contrast">コントラスト</string>
+    <string name="fotor_adjust_saturation">飽和</string>
+    <string name="fotor_adjust_sharpen">シャープ</string>
+    <string name="fotor_adjust_vignette">ビネット</string>
+    <string name="fotor_adjust_shadow">シャドー</string>
+    <string name="fotor_adjust_highlight">ハイライト</string>
+    <string name="fotor_adjust_temp">色温度</string>
+    <string name="fotor_adjust_tint">色合い</string>
+    <string name="fotor_adjust_rgb">RGB</string>
+    <string name="fotor_adjust_curve">曲線調整</string>
+    <string name="fotor_adjust_curve_show">陳列</string>
+    <string name="fotor_adjust_curve_hide">隠れる</string>
+    <string name="fotor_adjust_curve_reset">組み替える</string>
+    <string name="fotor_rotate_left">左</string>
+    <string name="fotor_rotate_right">右</string>
+    <string name="fotor_rotate_flipv">垂直に反転</string>
+    <string name="fotor_rotate_fliph">水平に反転</string>
+    <string name="fotor_scenes_original">オリジナル</string>
+    <string name="fotor_scenes_auto">Auto</string>
+    <string name="fotor_scenes_backlit">バックライト</string>
+    <string name="fotor_scenes_darken">暗くする</string>
+    <string name="fotor_scenes_cloudy">曇り</string>
+    <string name="fotor_scenes_shade">日陰</string>
+    <string name="fotor_scenes_sunset">日没</string>
+    <string name="fotor_scenes_night">夜光</string>
+    <string name="fotor_scenes_flash">フラッシュ</string>
+    <string name="fotor_scenes_fluorescent">蛍光</string>
+    <string name="fotor_scenes_portrait">人物</string>
+    <string name="fotor_scenes_sand_snow">ビーチ/雪</string>
+    <string name="fotor_scenes_landscape">風景</string>
+    <string name="fotor_scenes_theatre">劇場</string>
+    <string name="fotor_scenes_food">食品</string>
+    <string name="fotor_crop_free">カスタム</string>
+    <string name="fotor_crop_original">オリジナル</string>
+    <string name="fotor_crop_1_1">1:1</string>
+    <string name="fotor_crop_4_3">4:3</string>
+    <string name="fotor_crop_3_4">3:4</string>
+    <string name="fotor_crop_6_4">6:4</string>
+    <string name="fotor_crop_4_6">4:6</string>
+    <string name="fotor_crop_7_5">7:5</string>
+    <string name="fotor_crop_5_7">5:7</string>
+    <string name="fotor_crop_10_8">10:8</string>
+    <string name="fotor_crop_8_10">8:10</string>
+    <string name="fotor_crop_16_9">16:9</string>
+    <string name="fotor_crop_9_16">9:16</string>
+    <string name="fotor_tilt_shift_gradient">Gradient</string>
+    <string name="fotor_tilt_shift_strength">Strength</string>
+    <string name="fotor_tilt_shift_circle">円形</string>
+    <string name="fotor_tilt_shift_linear">線形</string>
+    <string name="fotor_tilt_shift_ellipse">楕円形</string>
+    <string name="fotor_font_roboto_light">Roboto-Light.ttf</string>
+    <string name="fotor_font_roboto_light_name">Roboto Light</string>
+    <string name="fotor_font_roboto_bold">Roboto-Bold.ttf</string>
+    <string name="fotor_font_roboto_bold_name">Roboto Bold</string>
+    <string name="fotor_font_assets_path">fonts</string>
+    <string name="fotor_enhance_low">低</string>
+    <string name="fotor_enhance_medium">中</string>
+    <string name="fotor_enhance_high">高</string>
+
+    <!-- Fotor common strings -->
+    <string name="fotor_back">Back</string>
+    <string name="fotor_loading">積載</string>
+    <string name="fotor_original">Original</string>
+    <string name="fotor_favorites">Favorites</string>
+    <string name="fotor_text_add_btn">加える</string>
+    <string name="fotor_text_default_text">タップ編集</string>
+    <string name="fotor_text_textsize">サイズ:</string>
+    <string name="fotor_text_rotation">回転:</string>
+    <string name="fotor_text_style">フォント·スタイル:</string>
+    <string name="fotor_text_alignment">文字位置:</string>
+    <string name="fotor_text_shadow">シャドー:</string>
+    <string name="fotor_text_opacity">不透明:</string>
+    <string name="fotor_stickers_abstract">Abstract</string>
+    <string name="fotor_stickers_boom">Boom</string>
+    <string name="fotor_effect_store">Store</string>
+    <string name="fotor_dialog_alert_message_plugin_update">Plugin was changed ,u must reload data for use feature.</string>
+
+    <!-- Fotor dialog text -->
+    <string name="fotor_dialog_alert_title_save">保存</string>
+    <string name="fotor_dialog_alert_message_save">写真を保存しますか？</string>
+    <string name="fotor_dialog_alert_negative_save">いいえ</string>
+    <string name="fotor_dialog_alert_positive_save">はい</string>
+    <string name="fotor_dialog_alert_title_plugin_update">Update</string>
+    
+    <!-- Fotor Toast text -->
+    <string name="fotor_toast_stickers_text">最大10つのステッカー！</string>
+    <string name="fotor_toast_fx_text">最大8つの複数の効果！</string>
+	
+	
+</resources>
